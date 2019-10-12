@@ -1,0 +1,99 @@
+intents:
+  - InsCov
+  - InsBen
+  - InsTiPer
+  - Documclaim
+  - Linkperinfo
+  - ForgotUpdUser
+  - InsuSum 
+  - Inslimit
+  - InsRen
+  - Info
+  - Greet
+  - Bye
+
+
+actions:
+- utter_InsCov1
+- utter_InsCov2
+- utter_InsBen1
+- utter_InsBen2
+- utter_InsTier
+- utter_DocumclaimM
+- utter_DocumclaimV
+- utter_InsuSum1
+- utter_InsuSum2
+- utter_Inslimit1
+- utter_Inslimit2
+- utter_InsRen 
+- utter_Linkperinfoq
+- utter_ForgetUpdUserh
+- utter_greet2
+templates:
+
+  utter_greet2
+  -text: "Hello there, this is from ABC INSURANCE COMPANY"
+  
+  utter_InsRen
+  -text: "Please Check here for further Information"
+
+  utter_Inslimit1
+  -text: "The capping provided on the skin 12000/- per treatment, maximum two times covered.
+          while
+	        Lasik surgery 30000/- per treatment, maximum one time covered."
+
+
+  utter_Inslimit2
+  -text: "Sub Limit:- 50,000/- for fire accident, 30,000 for theft".  
+
+  utter_InsuSum1
+  -text: "The Assured Sum of Rs 10 lakh is Given to the Patient"
+
+  utter_InsuSum2
+  -text: "At the least 50 % of the value of the insured vehicle, is given to the valued customer"
+  
+  utter_InsTier
+  -text: "The Free look period is 15 days, the
+	grace period and waiting period is 30 days."
+
+  utter_InsBen1:
+  -text: "Benefits are:
+	a. Renewal Benefits :
+	i. a) Cumulative Bonus (Additional Sum Insured) - An Additional Sum
+	Insured of 10% of Annual Sum Insured provided on each renewal for
+	every claim-free year up to a maximum of 50%.
+	ii. b) Complementary Health Check-Up Coupons: One coupon per
+	individual policy and two coupons per Floater policy will be offered.
+
+	b. Tax Benefits: Income tax exemption for 1 lakh rupees"
+
+
+
+  utter_InsBen2:
+  - text: "Benefits are:
+	a. Renewal Benefits :
+	i. Cumulative Bonus (Additional Sum Insured) - An Additional Sum
+	Insured of 10% of Annual Sum Insured provided on each renewal for
+	every claim-free year up to a maximum of 50%.
+	ii. Complimentary vehicle service Coupons: One coupon per individual
+	policy and two coupons per Floater policy will be offered.
+
+	b. Tax Benefits: Income tax exemption for 1 lakh rupees"
+  utter_InsCov1:
+    -text: "It is health insurance, which can be covered for all medical day-care treatments such
+	as skin treatment and Lasik surgery. The policy covered for 5 yrs. The Free look
+	period is 15 days, the grace period and waiting period is 30 days."
+  
+  utter_InsCov2: 
+    -text: "It is vehicle insurance, which can be covered for all own damage treatments such as
+	fire, theft, accident. The policy covered for 5 yrs. The Free look period is 15 days, the
+	grace period and waiting period is 30 days."
+ 
+  utter_DocumclaimM:
+  - text: "The Documents required are \n a)Medical Bills \n b)Policy copy"
+  utter_DocumclaimV:
+  - text: "The Documents required are \n a)Driving License Copy \n b)Original FIR copy \n c) RC copy of the vehicle with all original keys"
+  utter_Linkperinformq:
+  - text: "It is absolutely necessary to Link your Government ID's with us as it \n provides you with a better experience \n Link:http://localhost/wordpress/data-inputing/ "
+  utter_ForgetUpdateUserh:
+  - text: "iF YOU HAVE FORGOTTEN YOUR ID PLEASE follow the http://localhost/wordpress/data-inputing/"
